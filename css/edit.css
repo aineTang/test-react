@@ -48,6 +48,7 @@
     margin-top:20px;
     text-align:center;
     line-height:36px;
+    cursor:pointer;
 }
 .common-button{
     width:36px;
@@ -78,7 +79,7 @@
     left:50%;
     margin-left:-150px;
 }
-.radio-input:nth-child(1){
+.radio-input{
     margin-bottom:20px;
 }
 .tip-text{
