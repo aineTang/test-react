@@ -11,10 +11,16 @@ var ChooseDialog = React.createClass({
                 break;
             }
         }
-        this.props.addFormItem({
-            type:choseType
-        });
-        $('.popup-dialog').hide();
+        if (choseType){
+            this.props.addFormItem({
+                type:choseType
+            });
+            $('.popup-dialog').hide();
+        }
+        else{
+            alert("warning：请选择表单元素！");
+        }
+
     },
     render:function (){
         return (
